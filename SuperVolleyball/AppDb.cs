@@ -1,3 +1,4 @@
+using Ekz.Models;
 using Microsoft.EntityFrameworkCore;
 using MySqlConnector;
 
@@ -12,6 +13,10 @@ public class AppDb : DbContext
         Password = "user01pro",
         Database = "pro1_2"
     };
+
+    public DbSet<Player> Players { get; set; } = null!;
+    public DbSet<Position> Positions { get; set; } = null!;
+    public DbSet<Team> Teams { get; set; } = null!;
     
     protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
     {

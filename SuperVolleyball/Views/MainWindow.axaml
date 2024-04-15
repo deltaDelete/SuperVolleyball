@@ -1,13 +1,16 @@
-<Window xmlns="https://github.com/avaloniaui"
-        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
-        xmlns:vm="using:Ekz.ViewModels"
-        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
-        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
-        mc:Ignorable="d" d:DesignWidth="800" d:DesignHeight="450"
-        x:Class="Ekz.Views.MainWindow"
-        x:DataType="vm:MainWindowViewModel"
-        Icon="/Assets/avalonia-logo.ico"
-        Title="SuperVolleyball">
+<rxui:ReactiveWindow x:TypeArguments="vm:MainWindowViewModel" xmlns="https://github.com/avaloniaui"
+                           xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                           xmlns:vm="using:Ekz.ViewModels"
+                           xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+                           xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+                           xmlns:rxui="http://reactiveui.net"
+                           mc:Ignorable="d" d:DesignWidth="800" d:DesignHeight="450"
+                           MinWidth="400"
+                           MinHeight="225"
+                           x:Class="Ekz.Views.MainWindow"
+                           x:DataType="vm:MainWindowViewModel"
+                           Icon="/Assets/logo.ico"
+                           Title="СуперВолейбол">
 
     <Design.DataContext>
         <!-- This only sets the DataContext for the previewer in an IDE,
@@ -16,13 +19,28 @@
     </Design.DataContext>
 
     <DockPanel LastChildFill="True">
-        <TextBlock DockPanel.Dock="Top" Text="{Binding Greeting}" HorizontalAlignment="Center"
-                   VerticalAlignment="Center" />
-        <DataGrid ItemsSource="{Binding Items}">
+        <StackPanel DockPanel.Dock="Top" Orientation="Horizontal" Spacing="8" Margin="16">
+            <Image Source="/Assets/logo.ico" Height="64" />
+            <Label Content="СуперВолейбол" FontWeight="Bold" FontSize="24" VerticalAlignment="Stretch" VerticalContentAlignment="Center"/>
+        </StackPanel>
+        <StackPanel DockPanel.Dock="Top" Orientation="Horizontal" Spacing="8" Margin="16">
+            <TextBox Text="{Binding SearchText}" />
+            <ComboBox ItemsSource="{Binding Positions}" SelectedItem="{Binding SelectedPosition}" DisplayMemberBinding="{Binding Name}" />
+            <Button Content="Сбросить позицию" Command="{Binding ResetPositionCommand}" />
+            <Button Content="Добавить игрока" Command="{Binding AddPlayerCommand}" />
+            <Button Content="Удалить игрока" Command="{Binding RemovePlayerCommand}" CommandParameter="{Binding SelectedPlayer}" />
+        </StackPanel>
+        <DataGrid ItemsSource="{Binding Items}" IsReadOnly="True" SelectedItem="{Binding SelectedPlayer}">
             <DataGrid.Columns>
-                <DataGridTextColumn Header="Код" Binding="{Binding}" />
+                <DataGridTextColumn Header="Имя" Binding="{Binding FullName}" />
+                <DataGridTextColumn Header="Позиция" Binding="{Binding Position.Name}" />
+                <DataGridTextColumn Header="Вес" Binding="{Binding Weight}" />
+                <DataGridTextColumn Header="Рост" Binding="{Binding Height}" />
+                <DataGridTextColumn Header="Дата рождения" Binding="{Binding BirthDate, StringFormat='dd.MM.yyyy'}" />
+                <DataGridTextColumn Header="Дата начала игры" Binding="{Binding GameStart, StringFormat='dd.MM.yyyy'}" />
+                <DataGridTextColumn Header="Команда" Binding="{Binding Team.Name}" />
             </DataGrid.Columns>
         </DataGrid>
     </DockPanel>
 
-</Window>
+</rxui:ReactiveWindow>

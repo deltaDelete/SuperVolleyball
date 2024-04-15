@@ -4,6 +4,9 @@
     <option name="projectPerEditor">
       <map>
         <entry key="Ekz/Views/MainWindow.axaml" value="Ekz/Ekz.csproj" />
+        <entry key="SuperVolleyball/Views/DialogWindow.axaml" value="SuperVolleyball/SuperVolleyball.csproj" />
+        <entry key="SuperVolleyball/Views/MainWindow.axaml" value="SuperVolleyball/SuperVolleyball.csproj" />
+        <entry key="SuperVolleyball/Views/RoleSelectorWindow.axaml" value="SuperVolleyball/SuperVolleyball.csproj" />
       </map>
     </option>
   </component>

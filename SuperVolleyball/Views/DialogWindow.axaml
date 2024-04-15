@@ -3,7 +3,20 @@
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         mc:Ignorable="d" d:DesignWidth="800" d:DesignHeight="450"
+        MinHeight="128"
+        MinWidth="480"
+        MaxWidth="480"
+        Height="128"
+        WindowStartupLocation="CenterOwner"
         x:Class="Ekz.Views.DialogWindow"
-        Title="DialogWindow">
-    Welcome to Avalonia!
+        Icon="/Assets/logo.ico"
+        Padding="16"
+        Title="Сообщение">
+    <DockPanel LastChildFill="True">
+        <StackPanel DockPanel.Dock="Bottom" Orientation="Horizontal" HorizontalAlignment="Right" Spacing="8">
+            <Button Name="PART_ButtonCancel" Content="Назад" IsCancel="True" MinWidth="64"/>
+            <Button Name="PART_ButtonConfirm" Content="Ок" IsDefault="True" MinWidth="64"/>
+        </StackPanel>
+        <ContentPresenter Name="PART_Content" />
+    </DockPanel>
 </Window>

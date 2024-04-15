@@ -6,13 +6,28 @@
   <component name="ChangeListManager">
     <list default="true" id="11524624-97c6-4b3d-9d43-c810c0c42fad" name="Changes" comment="">
       <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.Ekz/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.SuperVolleyball/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.SuperVolleyball/.idea/.name" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.SuperVolleyball/.idea/avalonia.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.SuperVolleyball/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.SuperVolleyball/.idea/indexLayout.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.SuperVolleyball/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SuperVolleyball.Tests/GlobalUsings.cs" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/SuperVolleyball.Tests/SuperVolleyball.Tests.csproj" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/SuperVolleyball.Tests/UnitTest1.cs" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/SuperVolleyball.sln" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SuperVolleyball.sln.DotSettings.user" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/SuperVolleyball/App.axaml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/SuperVolleyball/App.axaml.cs" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/SuperVolleyball/AppDb.cs" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/SuperVolleyball/Assets/avalonia-logo.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SuperVolleyball/Assets/logo.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SuperVolleyball/Assets/logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SuperVolleyball/FakeDb.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SuperVolleyball/Models/Player.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SuperVolleyball/Models/Position.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SuperVolleyball/Models/Team.cs" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/SuperVolleyball/Program.cs" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/SuperVolleyball/SuperVolleyball.csproj" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/SuperVolleyball/ViewLocator.cs" afterDir="false" />
@@ -21,6 +36,7 @@
       <change afterPath="$PROJECT_DIR$/SuperVolleyball/Views/MainWindow.axaml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/SuperVolleyball/Views/MainWindow.axaml.cs" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/SuperVolleyball/app.manifest" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Тест-кейсы.odt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,30 +54,31 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    ".NET Project.Ekz.executor": "Debug",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "master",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
+    "vue.rearranger.settings.migration": "true"
   },
-  &quot;keyToStringList&quot;: {
-    &quot;DatabaseDriversLRU&quot;: [
-      &quot;mysql&quot;
+  "keyToStringList": {
+    "DatabaseDriversLRU": [
+      "mysql"
     ],
-    &quot;rider.external.source.directories&quot;: [
-      &quot;/home/user/.config/JetBrains/Rider2023.3/resharper-host/DecompilerCache&quot;,
-      &quot;/home/user/.config/JetBrains/Rider2023.3/resharper-host/SourcesCache&quot;,
-      &quot;/home/user/.local/share/Symbols/src&quot;
+    "rider.external.source.directories": [
+      "/home/user/.config/JetBrains/Rider2023.3/resharper-host/DecompilerCache",
+      "/home/user/.config/JetBrains/Rider2023.3/resharper-host/SourcesCache",
+      "/home/user/.local/share/Symbols/src"
     ]
   }
-}</component>
+}]]></component>
   <component name="RunManager" selected=".NET Project.Ekz">
     <configuration name="Ekz" type="DotNetProject" factoryName=".NET Project">
       <option name="EXE_PATH" value="" />
@@ -93,7 +110,7 @@
       <workItem from="1713143617659" duration="53000" />
       <workItem from="1713143682210" duration="401000" />
       <workItem from="1713144099454" duration="615000" />
-      <workItem from="1713144740553" duration="1228000" />
+      <workItem from="1713144740553" duration="3756000" />
     </task>
     <servers />
   </component>

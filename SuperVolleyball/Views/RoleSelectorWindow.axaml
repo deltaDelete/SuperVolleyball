@@ -5,5 +5,17 @@
         mc:Ignorable="d" d:DesignWidth="800" d:DesignHeight="450"
         x:Class="Ekz.Views.RoleSelectorWindow"
         Title="RoleSelectorWindow">
-    Welcome to Avalonia!
+    <DockPanel LastChildFill="True">
+        <StackPanel DockPanel.Dock="Top" Orientation="Horizontal" Spacing="8" Margin="16">
+            <Image Source="/Assets/logo.ico" Height="64" />
+            <Label Content="СуперВолейбол" FontWeight="Bold" FontSize="24" VerticalAlignment="Stretch"
+                   VerticalContentAlignment="Center" />
+        </StackPanel>
+        <StackPanel Spacing="8">
+            <Label Content="Выберите вашу роль" HorizontalAlignment="Center" HorizontalContentAlignment="Center"
+                   VerticalContentAlignment="Center" />
+            <Button Content="Администратор" Click="AdministratorButtonClick"/>
+            <Button Content="Менеджер" Click="ManagerButtonClick" />
+        </StackPanel>
+    </DockPanel>
 </Window>

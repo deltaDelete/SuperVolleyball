@@ -5,7 +5,8 @@ using Avalonia.Markup.Xaml;
 namespace Ekz.Views;
 
 public partial class DialogWindow : Window {
-    public DialogWindow() {
+    public DialogWindow(object? content) {
         InitializeComponent();
+        PART_Content.Content = content;
     }
 }
