@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="11524624-97c6-4b3d-9d43-c810c0c42fad" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SuperVolleyball.Tests/SuperVolleyball.Tests.csproj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SuperVolleyball.Tests/UnitTest1.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SuperVolleyball.sln" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SuperVolleyball/App.axaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SuperVolleyball/App.axaml.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SuperVolleyball/AppDb.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SuperVolleyball/Assets/avalonia-logo.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SuperVolleyball/Program.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SuperVolleyball/SuperVolleyball.csproj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SuperVolleyball/ViewLocator.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SuperVolleyball/ViewModels/MainWindowViewModel.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SuperVolleyball/ViewModels/ViewModelBase.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SuperVolleyball/Views/MainWindow.axaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SuperVolleyball/Views/MainWindow.axaml.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SuperVolleyball/app.manifest" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 2
+}</component>
+  <component name="ProjectId" id="2f7EFsgO1EX0aT9nsyVNsbfgWfa" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  },
+  &quot;keyToStringList&quot;: {
+    &quot;DatabaseDriversLRU&quot;: [
+      &quot;mysql&quot;
+    ],
+    &quot;rider.external.source.directories&quot;: [
+      &quot;/home/user/.config/JetBrains/Rider2023.3/resharper-host/DecompilerCache&quot;,
+      &quot;/home/user/.config/JetBrains/Rider2023.3/resharper-host/SourcesCache&quot;,
+      &quot;/home/user/.local/share/Symbols/src&quot;
+    ]
+  }
+}</component>
+  <component name="RunManager" selected=".NET Project.Ekz">
+    <configuration name="Ekz" type="DotNetProject" factoryName=".NET Project">
+      <option name="EXE_PATH" value="" />
+      <option name="PROGRAM_PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="PASS_PARENT_ENVS" value="1" />
+      <option name="USE_EXTERNAL_CONSOLE" value="0" />
+      <option name="USE_MONO" value="0" />
+      <option name="RUNTIME_ARGUMENTS" value="" />
+      <option name="PROJECT_PATH" value="$PROJECT_DIR$/SuperVolleyball/SuperVolleyball.csproj" />
+      <option name="PROJECT_EXE_PATH_TRACKING" value="1" />
+      <option name="PROJECT_ARGUMENTS_TRACKING" value="1" />
+      <option name="PROJECT_WORKING_DIRECTORY_TRACKING" value="1" />
+      <option name="PROJECT_KIND" value="DotNetCore" />
+      <option name="PROJECT_TFM" value="" />
+      <method v="2">
+        <option name="Build" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="11524624-97c6-4b3d-9d43-c810c0c42fad" name="Changes" comment="" />
+      <created>1713143617512</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1713143617512</updated>
+      <workItem from="1713143617659" duration="53000" />
+      <workItem from="1713143682210" duration="401000" />
+      <workItem from="1713144099454" duration="615000" />
+      <workItem from="1713144740553" duration="1228000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+</project>
